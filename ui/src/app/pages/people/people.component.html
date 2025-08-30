@@ -285,7 +285,7 @@
 </div>
 
 <nz-modal
-  [nzTitle]="getTranslation('headerTitle') + ' 💸'"
+  [nzTitle]="'💸 ' + getTranslation('headerTitle') + ' 💸'"
   [nzStyle]="{ top: '20px' }"
   [nzContent]="modalContent"
   [nzFooter]="modalFooter"
@@ -298,19 +298,19 @@
       <h2 class="text-lg mb-6">
         @if (modalScore >= 4.0) {
         <span class="text-green-600 font-semibold"
-          >✅ {{ getTranslation("strongBuy") }}</span
+          >🤑 {{ getTranslation("strongBuy") }}</span
         >
         } @else if (modalScore >= 3.0) {
         <span class="text-blue-600 font-semibold"
-          >🟡 {{ getTranslation("consider") }}</span
+          >🤔 {{ getTranslation("consider") }}</span
         >
         } @else if (modalScore>= 2.0) {
         <span class="text-orange-600 font-semibold"
-          >🟠 {{ getTranslation("thinkTwice") }}</span
+          >🧐 {{ getTranslation("thinkTwice") }}</span
         >
         } @else {
         <span class="text-red-600 font-semibold"
-          >❌ {{ getTranslation("risky") }}</span
+          >🥲 {{ getTranslation("risky") }}</span
         >
         }
       </h2>
