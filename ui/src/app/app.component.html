@@ -1,8 +1,25 @@
 <nz-layout class="app-layout">
   <nz-header>
-    <div class="app-header" nzJustify="center"  nzFlexDir="column">
-      <h2 class="header-title" nz-typography>Should I Buy?</h2>
-      <nz-radio-group class="header-language" nzSize="small">
+    <div class="app-header" nzJustify="center" nzFlexDir="column">
+      <h1 class="header-title">
+        {{ getTranslation("headerTitle") }}
+      </h1>
+
+      <a
+        href="https://github.com/soongxian/ShouldIBuy"
+      >
+        <nz-tag nzColor="black">
+          <nz-icon nzType="github"></nz-icon>
+          <span>GitHub</span>
+        </nz-tag>
+      </a>
+
+      <nz-radio-group
+        class="header-language"
+        nzSize="small"
+        [(ngModel)]="selectedLang"
+        (ngModelChange)="onLanguageChange($event)"
+      >
         <label nz-radio-button nzValue="en">English</label>
         <label nz-radio-button nzValue="ch">中文</label>
         <label nz-radio-button nzValue="my">Malay</label>

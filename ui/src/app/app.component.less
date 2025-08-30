@@ -3,6 +3,7 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .app-layout {
@@ -12,9 +13,11 @@
 
 nz-header {
   padding: 0;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+  background: #7DBAE7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   height: auto;
+  top: 0;
+  background-image: linear-gradient(to bottom, #7DBAE7, #a6d7f0);
 }
 
 .app-header {
@@ -24,9 +27,13 @@ nz-header {
 }
 
 .header-title {
-  margin: 0 0 8px 0;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0;
+  background: #E6F2F8;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .header-language {
@@ -36,6 +43,7 @@ nz-header {
 nz-content {
   padding: 0;
   margin: 0;
+  background: #E6F2F8;
 }
 
 .inner-content {
@@ -51,9 +59,10 @@ nz-content {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+
+
 @media (max-width: 767px) {
   .header-title {
-    font-size: 1.25rem;
     margin-bottom: 6px;
   }
 
@@ -74,9 +83,6 @@ nz-content {
 }
 
 @media (max-width: 480px) {
-  .header-title {
-    font-size: 1.1rem;
-  }
 
   .inner-content {
     margin: 12px 12px;
