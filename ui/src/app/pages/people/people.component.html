@@ -1,0 +1,363 @@
+<h3>Quality of Item</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedQuality = 'quality5'"
+    [nzType]="selectedQuality === 'quality5' ? 'primary' : 'default'"
+  >
+    Impenetrable Fortress
+  </button>
+  <button
+    nz-button
+    (click)="selectedQuality = 'quality4'"
+    [nzType]="selectedQuality === 'quality4' ? 'primary' : 'default'"
+  >
+    Quite Durable
+  </button>
+  <button
+    nz-button
+    (click)="selectedQuality = 'quality3'"
+    [nzType]="selectedQuality === 'quality3' ? 'primary' : 'default'"
+  >
+    Works... Mostly
+  </button>
+  <button
+    nz-button
+    (click)="selectedQuality = 'quality2'"
+    [nzType]="selectedQuality === 'quality2' ? 'primary' : 'default'"
+  >
+    Held Together by Hope
+  </button>
+  <button
+    nz-button
+    (click)="selectedQuality = 'quality1'"
+    [nzType]="selectedQuality === 'quality1' ? 'primary' : 'default'"
+  >
+    Falls Apart on Contact
+  </button>
+</div>
+
+<h3>Usefulness of Item</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedUsefulness = 'usefulness5'"
+    [nzType]="selectedUsefulness === 'usefulness5' ? 'primary' : 'default'"
+  >
+    Life-Changing
+  </button>
+  <button
+    nz-button
+    (click)="selectedUsefulness = 'usefulness4'"
+    [nzType]="selectedUsefulness === 'usefulness4' ? 'primary' : 'default'"
+  >
+    Saves Your Day
+  </button>
+  <button
+    nz-button
+    (click)="selectedUsefulness = 'usefulness3'"
+    [nzType]="selectedUsefulness === 'usefulness3' ? 'primary' : 'default'"
+  >
+    Occasionally Handy
+  </button>
+  <button
+    nz-button
+    (click)="selectedUsefulness = 'usefulness2'"
+    [nzType]="selectedUsefulness === 'usefulness2' ? 'primary' : 'default'"
+  >
+    Rarely Used
+  </button>
+  <button
+    nz-button
+    (click)="selectedUsefulness = 'usefulness1'"
+    [nzType]="selectedUsefulness === 'usefulness1' ? 'primary' : 'default'"
+  >
+    Paperweight
+  </button>
+</div>
+
+<h3>Affordability</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedAffordability = 'affordable5'"
+    [nzType]="selectedAffordability === 'affordable5' ? 'primary' : 'default'"
+  >
+    Practically Free
+  </button>
+  <button
+    nz-button
+    (click)="selectedAffordability = 'affordable4'"
+    [nzType]="selectedAffordability === 'affordable4' ? 'primary' : 'default'"
+  >
+    Reasonably Priced
+  </button>
+  <button
+    nz-button
+    (click)="selectedAffordability = 'affordable3'"
+    [nzType]="selectedAffordability === 'affordable3' ? 'primary' : 'default'"
+  >
+    Wallet Bruised
+  </button>
+  <button
+    nz-button
+    (click)="selectedAffordability = 'affordable2'"
+    [nzType]="selectedAffordability === 'affordable2' ? 'primary' : 'default'"
+  >
+    Goodbye Savings
+  </button>
+  <button
+    nz-button
+    (click)="selectedAffordability = 'affordable1'"
+    [nzType]="selectedAffordability === 'affordable1' ? 'primary' : 'default'"
+  >
+    Financial Crisis
+  </button>
+</div>
+
+<h3>Availability of Alternatives</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedAvailability = 'availability5'"
+    [nzType]="selectedAvailability === 'availability5' ? 'primary' : 'default'"
+  >
+    One of a Kind
+  </button>
+  <button
+    nz-button
+    (click)="selectedAvailability = 'availability4'"
+    [nzType]="selectedAvailability === 'availability4' ? 'primary' : 'default'"
+  >
+    Rare Find
+  </button>
+  <button
+    nz-button
+    (click)="selectedAvailability = 'availability3'"
+    [nzType]="selectedAvailability === 'availability3' ? 'primary' : 'default'"
+  >
+    Plenty Around
+  </button>
+  <button
+    nz-button
+    (click)="selectedAvailability = 'availability2'"
+    [nzType]="selectedAvailability === 'availability2' ? 'primary' : 'default'"
+  >
+    Basically Everywhere
+  </button>
+  <button
+    nz-button
+    (click)="selectedAvailability = 'availability1'"
+    [nzType]="selectedAvailability === 'availability1' ? 'primary' : 'default'"
+  >
+    Your Mum Has One
+  </button>
+</div>
+
+<h3>Urgency</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedUrgency = 'urgency5'"
+    [nzType]="selectedUrgency === 'urgency5' ? 'primary' : 'default'"
+  >
+    Need It Yesterday
+  </button>
+  <button
+    nz-button
+    (click)="selectedUrgency = 'urgency4'"
+    [nzType]="selectedUrgency === 'urgency4' ? 'primary' : 'default'"
+  >
+    High Priority
+  </button>
+  <button
+    nz-button
+    (click)="selectedUrgency = 'urgency3'"
+    [nzType]="selectedUrgency === 'urgency3' ? 'primary' : 'default'"
+  >
+    Whenever's Fine
+  </button>
+  <button
+    nz-button
+    (click)="selectedUrgency = 'urgency2'"
+    [nzType]="selectedUrgency === 'urgency2' ? 'primary' : 'default'"
+  >
+    Maybe Someday
+  </button>
+  <button
+    nz-button
+    (click)="selectedUrgency = 'urgency1'"
+    [nzType]="selectedUrgency === 'urgency1' ? 'primary' : 'default'"
+  >
+    Next Life
+  </button>
+</div>
+
+<h3>Long-Term Value</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedLongTerm = 'longTerm5'"
+    [nzType]="selectedLongTerm === 'longTerm5' ? 'primary' : 'default'"
+  >
+    Family Heirloom
+  </button>
+  <button
+    nz-button
+    (click)="selectedLongTerm = 'longTerm4'"
+    [nzType]="selectedLongTerm === 'longTerm4' ? 'primary' : 'default'"
+  >
+    Worth Keeping
+  </button>
+  <button
+    nz-button
+    (click)="selectedLongTerm = 'longTerm3'"
+    [nzType]="selectedLongTerm === 'longTerm3' ? 'primary' : 'default'"
+  >
+    Useful Sometimes
+  </button>
+  <button
+    nz-button
+    (click)="selectedLongTerm = 'longTerm2'"
+    [nzType]="selectedLongTerm === 'longTerm2' ? 'primary' : 'default'"
+  >
+    Weekend Romance
+  </button>
+  <button
+    nz-button
+    (click)="selectedLongTerm = 'longTerm1'"
+    [nzType]="selectedLongTerm === 'longTerm1' ? 'primary' : 'default'"
+  >
+    Disposable Dissapointment
+  </button>
+</div>
+
+<h3>Post-Purchase Regret Risk</h3>
+<div class="button-div">
+  <button
+    nz-button
+    (click)="selectedRegret = 'regret5'"
+    [nzType]="selectedRegret === 'regret5' ? 'primary' : 'default'"
+  >
+    Brag-Worthy
+  </button>
+  <button
+    nz-button
+    (click)="selectedRegret = 'regret4'"
+    [nzType]="selectedRegret === 'regret4' ? 'primary' : 'default'"
+  >
+    Mostly Fine
+  </button>
+  <button
+    nz-button
+    (click)="selectedRegret = 'regret3'"
+    [nzType]="selectedRegret === 'regret3' ? 'primary' : 'default'"
+  >
+    Having Second Thought
+  </button>
+  <button
+    nz-button
+    (click)="selectedRegret = 'regret2'"
+    [nzType]="selectedRegret === 'regret2' ? 'primary' : 'default'"
+  >
+    What Have I Done
+  </button>
+  <button
+    nz-button
+    (click)="selectedRegret = 'regret1'"
+    [nzType]="selectedRegret === 'regret1' ? 'primary' : 'default'"
+  >
+    Crying in the Shower
+  </button>
+</div>
+
+<div class="button-div">
+  <button
+    nz-button
+    nzShape="round"
+    nzType="primary"
+    nzDanger
+    (click)="onEvaluate()"
+    [disabled]="!isAllSelected()"
+  >
+    Time for Evaluation!
+  </button>
+</div>
+
+<nz-modal
+  nzTitle="Should I Buy? 💸"
+  [nzStyle]="{ top: '20px' }"
+  [nzContent]="modalContent"
+  [nzFooter]="modalFooter"
+  [(nzVisible)]="isModalVisible"
+  (nzOnCancel)="handleClose()"
+>
+  <ng-template #modalContent>
+    @if (modalScore !== null) {
+    <div class="text-center">
+      <!-- Interpretation -->
+      <h2 class="text-lg mb-6">
+        @if (modalScore >= 4.0) {
+        <span class="text-green-600 font-semibold">✅ Strong Buy!</span>
+        This purchase is highly recommended. } @else if (modalScore >= 3.0) {
+        <span class="text-blue-600 font-semibold">🟡 Consider It</span>
+        This could be a good purchase with some thought. } @else if
+        (modalScore>= 2.0) {
+        <span class="text-orange-600 font-semibold"
+          >🟠 Proceed with Caution</span
+        >
+        Think twice before buying. } @else {
+        <span class="text-red-600 font-semibold">❌ Avoid</span>
+        This is likely to lead to regret. }
+      </h2>
+    </div>
+    }
+    <div>
+      <nz-divider
+        nzText="Quality"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{ getDescription("quality", getScore(selectedQuality)) }}</span>
+      <nz-divider
+        nzText="Affordability"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{
+        getDescription("affordability", getScore(selectedAffordability))
+      }}</span>
+      <nz-divider
+        nzText="Availability"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{
+        getDescription("availability", getScore(selectedAvailability))
+      }}</span>
+      <nz-divider
+        nzText="Urgency"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{ getDescription("urgency", getScore(selectedUrgency)) }}</span>
+      <nz-divider
+        nzText="Long-Term Value"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{ getDescription("longTerm", getScore(selectedLongTerm)) }}</span>
+      <nz-divider
+        nzText="Post-Purchase Regret Risk"
+        nzOrientation="left"
+        nzVariant="solid"
+      ></nz-divider>
+      <span>{{ getDescription("regret", getScore(selectedRegret)) }}</span>
+    </div>
+  </ng-template>
+  <ng-template #modalFooter>
+    <button nz-button nzType="primary" (click)="handleClose()">
+      Ok, Understood
+    </button>
+  </ng-template>
+</nz-modal>

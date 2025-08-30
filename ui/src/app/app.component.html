@@ -1,0 +1,18 @@
+<nz-layout class="app-layout">
+  <nz-header>
+    <div class="app-header" nzJustify="center"  nzFlexDir="column">
+      <h2 class="header-title" nz-typography>Should I Buy?</h2>
+      <nz-radio-group class="header-language" nzSize="small">
+        <label nz-radio-button nzValue="en">English</label>
+        <label nz-radio-button nzValue="ch">中文</label>
+        <label nz-radio-button nzValue="my">Malay</label>
+      </nz-radio-group>
+    </div>
+  </nz-header>
+
+  <nz-content>
+    <div class="inner-content">
+      <router-outlet></router-outlet>
+    </div>
+  </nz-content>
+</nz-layout>
